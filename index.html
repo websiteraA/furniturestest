@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MT SINAI Furniture | Solid Mahogany Furniture in Nairobi</title>
+<meta name="description" content="Solid mahogany dining sets, beds, coffee tables, sofas and timber on Ngong Road, Pathway Lane, Nairobi. Order on WhatsApp.">
+<meta property="og:title" content="MT SINAI Furniture">
+<meta property="og:description" content="Handcrafted mahogany furniture, built to last. Order on WhatsApp.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--mah:#4a1a10;--red:#8a3220;--gold:#d4a73a;--ink:#201512;--bg:#f3f1ee;--card:#fff;--wa:#1faa59;--line:#e1dcd6}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+[hidden]{display:none!important}
+body{margin:0;font:16px/1.6 'DM Sans',sans-serif;color:var(--ink);background:var(--bg)}
+h1,h2,h3,.logo{font-family:'Bricolage Grotesque',sans-serif;line-height:1.1}
+a{color:inherit}img{max-width:100%}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.nav{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:12px;padding:10px 20px;background:var(--mah);color:#fff}
+.logo{font-weight:800;font-size:1.25rem;text-decoration:none;margin-right:auto}.logo small{font:500 .7rem 'DM Sans';margin-left:6px;color:var(--gold)}
+.nav nav{display:flex;gap:20px}.nav nav a{text-decoration:none;font-weight:500}.nav nav a:hover{color:var(--gold)}
+.icon{background:none;border:0;color:inherit;font-size:1.3rem;cursor:pointer;position:relative;padding:6px}
+#cartCount{position:absolute;top:-2px;right:-4px;background:var(--gold);color:var(--ink);font:700 .7rem sans-serif;border-radius:99px;min-width:18px;height:18px;display:grid;place-items:center}
+.burger{display:none}
+.hero{background:linear-gradient(90deg,rgba(24,12,8,.82) 0%,rgba(24,12,8,.64) 48%,rgba(24,12,8,.28) 100%),url('https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=2200&q=88') center 55%/cover no-repeat;color:#fff;padding:clamp(72px,12vh,132px) 20px 40px;min-height:min(760px,82svh);display:grid;align-content:center;gap:36px;max-width:100%}
+.hero>div{max-width:760px;margin:0 auto;width:100%}
+.hero h1{font-size:clamp(2.3rem,7vw,4.6rem);margin:0 0 16px;font-weight:800;animation:rise .7s both}
+.hero p{font-size:1.15rem;max-width:560px;color:#f0dcd2}
+@keyframes rise{from{opacity:0;transform:translateY(18px)}}
+.row{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+.btn{display:inline-block;border:0;border-radius:8px;padding:13px 22px;font:700 1rem 'DM Sans';cursor:pointer;text-decoration:none;text-align:center}
+.gold{background:var(--gold);color:var(--ink)}.ghost{border:2px solid #fff;color:#fff}.brown{background:var(--mah);color:#fff}.wa{background:var(--wa);color:#fff;width:100%}
+.btn:hover{filter:brightness(1.1)}
+.trust{list-style:none;display:flex;flex-wrap:wrap;gap:10px 24px;margin:0 auto;padding:0;max-width:760px;width:100%;color:var(--gold);font-weight:700}
+.cats{display:flex;gap:10px;overflow-x:auto;padding:18px 20px;max-width:1100px;margin:0 auto}
+.cats button{flex:0 0 auto;border:2px solid var(--line);background:var(--card);border-radius:99px;padding:9px 18px;font:500 .95rem 'DM Sans';cursor:pointer}
+.cats button.on{background:var(--mah);border-color:var(--mah);color:#fff}
+.wrap{max-width:1100px;margin:0 auto;padding:44px 20px}
+h2{font-size:clamp(1.7rem,4vw,2.4rem);margin:0 0 18px}
+.tools{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:20px}
+input,select,textarea{font:inherit;padding:12px;border:1.5px solid var(--line);border-radius:8px;background:#fff;width:100%}
+.tools input{flex:1 1 240px;width:auto}.tools select{width:auto}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:20px}
+.pc{background:var(--card);border-radius:12px;overflow:hidden;border:1px solid var(--line);display:flex;flex-direction:column}
+.pimg{aspect-ratio:4/3;background:linear-gradient(135deg,#8a3220,#4a1a10);position:relative;display:grid;place-items:center;font-size:3rem}
+.photo-view{position:absolute;inset:0;width:100%;height:100%;padding:0;border:0;background:transparent;cursor:pointer}
+.photo-view:focus-visible{outline-offset:-4px}
+.pimg img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.heart{position:absolute;top:8px;right:8px;z-index:2;background:#fff;border:0;border-radius:50%;width:36px;height:36px;font-size:1.1rem;cursor:pointer}
+.pb{padding:14px;display:flex;flex-direction:column;gap:6px;flex:1}.pb h3{margin:0;font-size:1.1rem}
+.price{font-weight:700;color:var(--red);font-size:1.1rem}.muted{color:#6d625c;font-size:.92rem;margin:0}
+.pb .row{margin-top:auto;padding-top:8px}.pb .btn{padding:10px 14px;font-size:.9rem;flex:1}
+.steps ol{display:grid;gap:14px;padding-left:20px;max-width:640px}
+.two{display:grid;gap:28px}.card{display:grid;gap:10px;background:#fff;padding:20px;border-radius:12px;border:1px solid var(--line)}
+.quotes{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+blockquote{margin:0;background:#fff;padding:20px;border-left:5px solid var(--gold);border-radius:8px}cite{display:block;margin-top:8px;font-weight:700;font-style:normal}
+iframe{width:100%;min-height:300px;border:0;border-radius:12px}
+footer{background:var(--mah);color:#f0dcd2;text-align:center;padding:30px 20px}
+.drawer{position:fixed;top:0;right:0;height:100%;width:min(420px,100%);background:#fff;z-index:40;transform:translateX(100%);transition:transform .25s;overflow-y:auto;padding:16px}
+.drawer.open{transform:none}.dhead{display:flex;justify-content:space-between;align-items:center}
+.scrim{position:fixed;inset:0;background:#0007;z-index:30}
+.ci{display:grid;grid-template-columns:64px 1fr auto;gap:10px;align-items:center;padding:10px 0;border-bottom:1px solid var(--line)}
+.ci .t{width:64px;height:64px;border-radius:8px;background:linear-gradient(135deg,#8a3220,#4a1a10);overflow:hidden}.ci img{width:100%;height:100%;object-fit:cover}
+.qty{display:flex;align-items:center;gap:8px;margin-top:4px}.qty button{width:28px;height:28px;border-radius:6px;border:1px solid var(--line);background:#fff;cursor:pointer}
+.rm{background:none;border:0;color:#b00;cursor:pointer}
+#checkout{display:grid;gap:10px;margin-top:14px}.total{display:flex;justify-content:space-between;font-size:1.2rem}
+.err{color:#b00020;margin:0;font-size:.9rem}
+.modal{position:fixed;inset:0;background:#000a;z-index:50;display:grid;place-items:center;padding:16px}
+.mbox{background:#fff;border-radius:14px;max-width:520px;width:100%;overflow:hidden;max-height:92vh;overflow-y:auto}.mbox .pimg{cursor:default}.mbox .pb{padding:20px}
+.toast{position:fixed;bottom:90px;left:50%;transform:translate(-50%,20px);background:var(--ink);color:#fff;padding:10px 18px;border-radius:8px;opacity:0;pointer-events:none;transition:.25s;z-index:60}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+.float{position:fixed;right:16px;bottom:16px;width:58px;height:58px;border-radius:50%;background:var(--wa);display:grid;place-items:center;font-size:1.6rem;text-decoration:none;z-index:25;box-shadow:0 4px 14px #0004;animation:pulse 2.4s infinite}
+@keyframes pulse{50%{box-shadow:0 0 0 12px #1faa5922}}
+@media(min-width:800px){.two{grid-template-columns:1fr 1fr;align-items:center}.hero{padding:96px 40px 48px}}
+@media(max-width:760px){.burger{display:block}.nav nav{display:none;position:absolute;top:100%;left:0;right:0;background:var(--mah);flex-direction:column;padding:14px 20px}.nav nav.open{display:flex}}
+@media(max-width:520px){.nav{padding:10px 12px;gap:8px}.logo{font-size:1.1rem}.logo small{font-size:.65rem}.icon{padding:5px}.wrap{padding:34px 16px}.hero{padding:72px 18px 34px;min-height:74svh}.hero h1{font-size:clamp(2.2rem,11vw,3rem)}.hero p{font-size:1rem}.trust{gap:8px 14px;font-size:.88rem}.grid{grid-template-columns:minmax(0,1fr)}.tools input,.tools select{width:100%;flex-basis:100%}.pb .row{display:grid;grid-template-columns:1fr}.pb .btn{width:100%}.ci{grid-template-columns:52px minmax(0,1fr) auto;gap:8px}.ci .t{width:52px;height:52px}.modal{padding:10px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<header class="nav">
+  <a href="#top" class="logo">MT SINAI<small>Furniture</small></a>
+  <nav id="menu" aria-label="Main">
+    <a href="#shop">Shop</a><a href="#custom">Custom order</a><a href="#visit">Visit us</a>
+    <a href="#" data-tiktok target="_blank" rel="noopener">TikTok</a>
+  </nav>
+  <button class="icon" id="cartBtn" aria-label="Open cart">🛒<span id="cartCount">0</span></button>
+  <button class="icon burger" id="burger" aria-label="Menu" aria-expanded="false" aria-controls="menu">☰</button>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div>
+    <h1>Mahogany that outlives the house it's in.</h1>
+    <p>Dining sets, beds, coffee tables and sofas, finished by hand on Ngong Road. Pick what you like, send it to us on WhatsApp.</p>
+    <div class="row"><a class="btn gold" href="#shop">Shop furniture</a><a class="btn ghost" data-wa href="#">Chat on WhatsApp</a></div>
+  </div>
+  <ul class="trust"><li>Solid mahogany</li><li>Custom sizes</li><li>Delivery across Kenya</li><li>Free quotation</li></ul>
+</section>
+
+<section class="cats" id="cats" aria-label="Categories"></section>
+
+<section id="shop" class="wrap">
+  <h2>Our furniture</h2>
+  <div class="tools">
+    <input id="search" type="search" placeholder="Search sofa, bed, dining…" aria-label="Search products">
+    <select id="sort" aria-label="Sort"><option value="">Sort: Featured</option><option value="asc">Price: low to high</option><option value="desc">Price: high to low</option></select>
+  </div>
+  <div id="grid" class="grid"></div>
+  <p id="none" class="muted" hidden>Nothing matches that search. Try another word or <a data-wa href="#">ask us on WhatsApp</a>.</p>
+</section>
+
+<section class="wrap steps">
+  <h2>How to order</h2>
+  <ol><li><b>Choose</b> the pieces you like and add them to your cart.</li><li><b>Send</b> your name, phone and location. Your order opens in WhatsApp.</li><li><b>Receive</b> a quote and delivery date from us, then pay on agreement.</li></ol>
+</section>
+
+<section id="custom" class="wrap two">
+  <div><h2>Want something made to your size?</h2><p>Tell us the piece, size and wood finish. We reply on WhatsApp with a price and timeline.</p></div>
+  <form id="customForm" class="card" novalidate>
+    <select id="cType" aria-label="Furniture type"><option>Dining set</option><option>Bed</option><option>Coffee table</option><option>Sofa set</option><option>Mahogany timber</option><option>Other</option></select>
+    <input id="cSize" placeholder="Size (e.g. 8 seater, 5x6 bed)">
+    <textarea id="cNotes" rows="3" placeholder="Describe what you want"></textarea>
+    <button class="btn brown" type="submit">Send request on WhatsApp</button>
+  </form>
+</section>
+
+<section class="wrap">
+  <h2>What customers say</h2>
+  <div class="quotes">
+    <blockquote>“The dining table finish is perfect and it arrived exactly when promised.” <cite>Wanjiru, Kilimani</cite></blockquote>
+    <blockquote>“Ordering on WhatsApp was quick. They sent photos before I paid.” <cite>Brian, Rongai</cite></blockquote>
+    <blockquote>“Our bed is solid and heavy. Worth every shilling.” <cite>Mercy, Karen</cite></blockquote>
+  </div>
+</section>
+
+<section id="visit" class="wrap two">
+  <div>
+    <h2>Visit our yard</h2>
+    <p>Ngong Road, Pathway Lane, Nairobi.<br>Open Monday to Saturday, 8am to 6pm.<br><a data-tel href="#"></a></p>
+    <p>See new pieces first on TikTok.</p>
+    <a class="btn brown" data-tiktok target="_blank" rel="noopener" href="#">Watch our latest work</a>
+  </div>
+  <iframe title="Map to MT SINAI Furniture" loading="lazy" src="https://maps.google.com/maps?q=Pathway+Lane+Ngong+Road+Nairobi&output=embed"></iframe>
+</section>
+</main>
+
+<footer><b>MT SINAI Furniture</b> · Ngong Road, Pathway Lane, Nairobi · <a data-wa href="#">WhatsApp</a> · <a data-tiktok target="_blank" rel="noopener" href="#">TikTok</a><br><small>© <span id="yr"></span> MT SINAI Furniture</small></footer>
+
+<aside id="drawer" class="drawer" aria-label="Cart" aria-hidden="true">
+  <div class="dhead"><h3>Your cart</h3><button class="icon" id="closeCart" aria-label="Close cart">✕</button></div>
+  <div id="items"></div>
+  <form id="checkout" novalidate hidden>
+    <div class="total">Total <b id="total"></b></div>
+    <input id="fName" placeholder="Full name" autocomplete="name">
+    <input id="fPhone" placeholder="Phone (e.g. 0712 345 678)" inputmode="tel" autocomplete="tel">
+    <input id="fLoc" placeholder="Delivery location / area">
+    <textarea id="fNotes" rows="2" placeholder="Notes (optional)"></textarea>
+    <p id="err" class="err" role="alert"></p>
+    <button class="btn wa" type="submit">Order via WhatsApp</button>
+  </form>
+</aside>
+<div id="scrim" class="scrim" hidden></div>
+<div id="modal" class="modal" hidden><div class="mbox" id="mbox"></div></div>
+<div id="toast" class="toast" role="status"></div>
+<a class="float" data-wa href="#" aria-label="Chat on WhatsApp">💬</a>
+<script>
+/* ===== EDIT HERE: shop details and products ===== */
+const CONFIG = {
+  wa: "254745158038",
+  phoneDisplay: "0745 158 038",
+  tiktok: "https://www.tiktok.com/@mtsinaifurniture"
+};
+const PRODUCTS = [
+  {id:1,name:"8-Seater Mahogany Dining Set",cat:"Dining Sets",price:120000,icon:"🍽️",image:"https://images.unsplash.com/photo-1617802690992-15d93263d3a9?auto=format&fit=crop&w=1000&q=85",desc:"Live-edge mahogany table with 8 carved, cushioned chairs.",dim:"Table 8 ft x 3.5 ft"},
+  {id:2,name:"6-Seater Dining Set",cat:"Dining Sets",price:85000,icon:"🍽️",image:"https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1000&q=85",desc:"Polished mahogany table with 6 padded chairs.",dim:"Table 6 ft x 3 ft"},
+  {id:3,name:"Carved Mahogany Bed 5x6",cat:"Beds",price:65000,icon:"🛏️",image:"https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1000&q=85",desc:"Hand-carved headboard and footboard, solid mahogany frame.",dim:"5 ft x 6 ft"},
+  {id:4,name:"Carved Mahogany Bed 4x6",cat:"Beds",price:52000,icon:"🛏️",image:"https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1000&q=85",desc:"Carved panels with a deep varnish finish.",dim:"4 ft x 6 ft"},
+  {id:5,name:"Round Coffee Table with 4 Stools",cat:"Coffee Tables",price:45000,icon:"☕",image:"https://images.unsplash.com/photo-1499933374294-4584851497cc?auto=format&fit=crop&w=1000&q=85",desc:"Round mahogany top with four fan-shaped stools that tuck underneath.",dim:"Top 80 cm wide"},
+  {id:6,name:"Mahogany Nest Coffee Table",cat:"Coffee Tables",price:28000,icon:"☕",image:"https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1000&q=85",desc:"Oval top with a cross-leg base.",dim:"90 cm x 60 cm"},
+  {id:7,name:"5-Seater Blue Sofa Set",cat:"Sofa Sets",price:130000,icon:"🛋️",image:"https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1000&q=85",desc:"Soft blue fabric with polished mahogany trim (3+1+1).",dim:"3-seater 210 cm"},
+  {id:8,name:"7-Seater Grey Sofa Set",cat:"Sofa Sets",price:140000,icon:"🛋️",image:"https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1000&q=85",desc:"Grey chenille with mahogany arm rails (3+2+1+1).",dim:"3-seater 210 cm"},
+  {id:9,name:"Orange Modern Sofa",cat:"Sofa Sets",price:150000,icon:"🛋️",image:"https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1000&q=85",desc:"New design: tufted corner sofa in bold orange.",dim:"L-shape, 3 m side"},
+  {id:10,name:"Mahogany Timber (per foot)",cat:"Timber",price:350,icon:"🪵",image:"https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=1000&q=85",desc:"Seasoned mahogany timber. Ask for sizes and bulk prices.",dim:"Various"},
+  {id:11,name:"Mahogany Wardrobe",cat:"Beds",price:70000,icon:"🚪",image:"https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1000&q=85",desc:"Carved doors, 3-door solid mahogany wardrobe.",dim:"6 ft x 2 ft"},
+  {id:12,name:"Dining Chairs (set of 4)",cat:"Dining Sets",price:24000,icon:"🪑",image:"https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1000&q=85",desc:"Carved back, upholstered seat, studded trim.",dim:"Seat height 45 cm"}
+];
+/* Prices above are samples. Replace with the shop's real prices. */
+
+const $ = s => document.querySelector(s), fmt = n => "KES " + n.toLocaleString();
+const load = k => { try { return JSON.parse(localStorage.getItem(k)) || [] } catch { return [] } };
+const save = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)) } catch {} };
+let cart = load("sinai_cart"), wish = load("sinai_wish"), cat = "All";
+const wa = text => `https://wa.me/${CONFIG.wa}?text=${encodeURIComponent(text)}`;
+const byId = id => PRODUCTS.find(p => p.id === id);
+const tile = p => `<img src="${p.image}" alt="${p.name}" loading="lazy" onerror="this.remove()">`;
+
+function toast(msg){const t=$("#toast");t.textContent=msg;t.classList.add("show");clearTimeout(toast.t);toast.t=setTimeout(()=>t.classList.remove("show"),1800)}
+
+document.querySelectorAll("[data-wa]").forEach(a=>{a.href=wa("Hello MT SINAI Furniture, I would like to ask about your furniture.");a.target="_blank";a.rel="noopener"});
+document.querySelectorAll("[data-tiktok]").forEach(a=>a.href=CONFIG.tiktok);
+document.querySelectorAll("[data-tel]").forEach(a=>{a.href="tel:+"+CONFIG.wa;a.textContent="Call or WhatsApp: "+CONFIG.phoneDisplay});
+$("#yr").textContent=new Date().getFullYear();
+
+function renderCats(){
+  const cats=["All",...new Set(PRODUCTS.map(p=>p.cat))];
+  $("#cats").innerHTML=cats.map(c=>`<button class="${c===cat?"on":""}" data-cat="${c}">${c}</button>`).join("");
+}
+function renderGrid(){
+  const q=$("#search").value.trim().toLowerCase(), s=$("#sort").value;
+  let list=PRODUCTS.filter(p=>(cat==="All"||p.cat===cat)&&(p.name+p.cat+p.desc).toLowerCase().includes(q));
+  if(s)list.sort((a,b)=>s==="asc"?a.price-b.price:b.price-a.price);
+  $("#none").hidden=list.length>0;
+  $("#grid").innerHTML=list.map(p=>`<article class="pc"><div class="pimg"><button class="photo-view" data-view="${p.id}" aria-label="View ${p.name}">${tile(p)}</button><button class="heart" data-wish="${p.id}" aria-label="Save ${p.name} to wishlist">${wish.includes(p.id)?"❤️":"🤍"}</button></div>
+  <div class="pb"><h3>${p.name}</h3><p class="muted">${p.desc}</p><div class="price">${fmt(p.price)}</div>
+  <div class="row"><button class="btn brown" data-add="${p.id}">Add to cart</button><a class="btn wa" target="_blank" rel="noopener" href="${wa(`Hello MT SINAI Furniture, I am interested in: ${p.name} (${fmt(p.price)}). Is it available?`)}">Ask on WhatsApp</a></div></div></article>`).join("");
+}
+
+const count=()=>cart.reduce((n,i)=>n+i.q,0), total=()=>cart.reduce((n,i)=>n+byId(i.id).price*i.q,0);
+function renderCart(){
+  $("#cartCount").textContent=count();
+  save("sinai_cart",cart);
+  $("#items").innerHTML=cart.length?cart.map(i=>{const p=byId(i.id);return `<div class="ci"><div class="t">${tile(p).replace(/<span>.*?<\/span>/,"")}</div><div><b>${p.name}</b><div class="muted">${fmt(p.price)}</div><div class="qty"><button data-dec="${p.id}" aria-label="Less">−</button>${i.q}<button data-inc="${p.id}" aria-label="More">+</button></div></div><button class="rm" data-rm="${p.id}" aria-label="Remove">✕</button></div>`}).join("")
+   :`<p class="muted">Your cart is empty. Add a piece you like and it will show here.</p><button class="btn brown" data-close>Continue shopping</button>`;
+  $("#checkout").hidden=!cart.length;$("#total").textContent=fmt(total());
+}
+function add(id){const i=cart.find(x=>x.id===id);i?i.q++:cart.push({id,q:1});renderCart();toast("Added to cart")}
+function openCart(o=true){$("#drawer").classList.toggle("open",o);$("#drawer").setAttribute("aria-hidden",!o);$("#scrim").hidden=!o}
+function view(id){const p=byId(id);$("#mbox").innerHTML=`<div class="pimg">${tile(p)}</div><div class="pb"><h3>${p.name}</h3><div class="price">${fmt(p.price)}</div><p>${p.desc}</p><p class="muted">Size: ${p.dim}<br>Wood: solid mahogany<br>Category: ${p.cat}</p><div class="row"><button class="btn brown" data-add="${p.id}" data-close-modal>Add to cart</button><button class="btn ghost" style="color:var(--ink);border-color:var(--ink)" data-close-modal>Close</button></div></div>`;$("#modal").hidden=false}
+
+document.addEventListener("click",e=>{
+  const t=e.target.closest("button,[data-view]");if(!t)return;const d=t.dataset;
+  if(d.cat){cat=d.cat;renderCats();renderGrid();if(!e.target.closest("#grid"))$("#shop").scrollIntoView()}
+  else if(d.wish){e.stopPropagation();const id=+d.wish;wish=wish.includes(id)?wish.filter(x=>x!==id):[...wish,id];save("sinai_wish",wish);renderGrid();toast(wish.includes(id)?"Saved to wishlist":"Removed from wishlist")}
+  else if(d.add)add(+d.add);
+  else if(d.view)view(+d.view);
+  else if(d.inc){cart.find(i=>i.id==d.inc).q++;renderCart()}
+  else if(d.dec){const i=cart.find(i=>i.id==d.dec);if(--i.q<1)cart=cart.filter(x=>x!==i);renderCart()}
+  else if(d.rm){cart=cart.filter(i=>i.id!=d.rm);renderCart()}
+  else if("close" in d){openCart(false);$("#shop").scrollIntoView()}
+  if("closeModal" in d)$("#modal").hidden=true;
+});
+$("#cartBtn").onclick=()=>openCart();$("#closeCart").onclick=$("#scrim").onclick=()=>openCart(false);
+$("#modal").onclick=e=>{if(e.target.id==="modal")$("#modal").hidden=true};
+document.addEventListener("keydown",e=>{if(e.key==="Escape"){$("#modal").hidden=true;openCart(false)}});
+$("#burger").onclick=()=>{
+  const isOpen=$("#menu").classList.toggle("open");
+  $("#burger").setAttribute("aria-expanded",String(isOpen));
+};
+$("#menu").onclick=e=>{
+  if(!e.target.closest("a"))return;
+  $("#menu").classList.remove("open");
+  $("#burger").setAttribute("aria-expanded","false");
+};
+$("#search").oninput=renderGrid;$("#sort").onchange=renderGrid;
+
+$("#checkout").addEventListener("submit",e=>{
+  e.preventDefault();
+  const name=$("#fName").value.trim(),phone=$("#fPhone").value.replace(/[\s-]/g,""),loc=$("#fLoc").value.trim(),notes=$("#fNotes").value.trim(),err=$("#err");
+  if(name.length<2)return err.textContent="Enter your full name.";
+  if(!/^(\+?254|0)?[17]\d{8}$/.test(phone))return err.textContent="Enter a valid Kenyan phone number, like 0712 345 678.";
+  if(loc.length<3)return err.textContent="Enter your delivery location or area.";
+  err.textContent="";
+  const lines=cart.map((i,n)=>{const p=byId(i.id);return `${n+1}. ${p.name} x${i.q} - ${fmt(p.price*i.q)}`}).join("\n");
+  const msg=`Hello MT SINAI Furniture, I would like to place an order.\nName: ${name}\nPhone: ${phone}\nLocation: ${loc}\nItems:\n${lines}\nTotal: ${fmt(total())}${notes?"\nNotes: "+notes:""}`;
+  window.open(wa(msg),"_blank","noopener");
+});
+$("#customForm").addEventListener("submit",e=>{
+  e.preventDefault();
+  const msg=`Hello MT SINAI Furniture, I would like a custom order.\nType: ${$("#cType").value}\nSize: ${$("#cSize").value||"Not sure yet"}\nDetails: ${$("#cNotes").value||"-"}`;
+  window.open(wa(msg),"_blank","noopener");
+});
+
+renderCats();renderGrid();renderCart();
+</script>
+</body>
+</html>
